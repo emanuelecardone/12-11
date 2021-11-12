@@ -85,24 +85,30 @@
 
 // RACCOLTA DATI UTENTE E PREPARAZIONE VARIABILI
 // Chiedere all'utente se vuole pari o dispari
-const userChoice = prompt(`Scegli pari o dispari:`);
-console.log(userChoice);
+// const userChoice = prompt(`Scegli pari o dispari:`);
+// console.log(userChoice);
 // Chiedere all'utente un numero casuale tra 1 e 9
-const userNumber = parseInt(prompt(`Dimmi un numero tra 1 e 9:`));
-console.log(userNumber);
+// const userNumber = parseInt(prompt(`Dimmi un numero tra 1 e 9:`));
+// console.log(userNumber);
 // Generiamo un numero tra 1 e 9 per il computer
-let computerNumer = Math.floor(Math.random() * 9) + 1;
-console.log(computerNumer);
+// let computerNumer = Math.floor(Math.random() * 9) + 1;
+// console.log(computerNumer);
 
 // LOGICA
 // Sommo il numero dell'utente a quello del computer per capire se la somma è pari o dispari
-let numbersSum = userNumber + computerNumer;
-console.log(numbersSum);
+// let numbersSum = userNumber + computerNumer;
+// console.log(numbersSum);
 // Andare a comparare la scelta dell'utente con l'essere pari o dispari della somma
-if(numbersSum % 2 === 0 && userChoice === `pari` || (numbersSum % 2 !== 0 && userChoice === `dispari`)){
-    alert(`Hai vinto`);
-} else {
-    alert(`Hai perso`);
-}
+// if(numbersSum % 2 === 0 && userChoice === `pari` || (numbersSum % 2 !== 0 && userChoice === `dispari`)){
+//     alert(`Hai vinto`);
+// } else {
+//     alert(`Hai perso`);
+// }
 
-// OUTPUT
+
+// ESEMPI SCONTO E TOFIXED
+// let price =  90.23492393
+// price = price.toFixed(2);
+// console.log(price);
+
+// let discount = price * 20 / 100;
